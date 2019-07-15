@@ -1,0 +1,142 @@
+*{
+    touch-action: pan-y;
+}
+.allbox{
+    margin-bottom: 1rem;
+}
+.alin_div1{
+    height:.9rem;
+    position: relative;
+    background:#111;
+.alin_div_1{
+    width:70%;
+    height:.9rem;
+    float: left;
+    padding:.1rem;
+    img{
+        width:.7rem;
+        height:.7rem;
+        float: left;
+        border-radius: 10%;
+    }
+    .p_1{
+        color:#ff4338;
+        float: left;
+        span:nth-of-type(1){
+            padding-left:.07rem;
+            padding-right:.07rem;
+            width:.69rem;
+            background:#ff4338;
+            color: #fff;
+            height:100%;
+            margin-left:.1rem;
+            border-radius: 10%;
+            text-align: center;
+        }
+        span:nth-of-type(2){
+            color:#5e5e5e;
+            text-decoration:line-through;
+            margin-left:.1rem;
+        }
+    }
+    p{
+        float: left;
+        height:43%;
+        font-size:.22rem;
+        padding:.02rem;
+        color:#fff;
+        text-indent: .3rem;
+    }
+    
+}
+    .alin_div1_1{
+        position: absolute;
+        right:.2rem;
+        top:.1rem;
+        a{
+            width:1rem;
+            height: .68rem;
+            background: #ff4338;
+            color:#fff;
+            position: absolute;
+            top:10%;
+            right:50%;
+            text-align: center;
+            line-height: .68rem;
+            border-radius: 10%;
+            margin-right: .3rem;
+        }
+        div{
+            position: absolute;
+            top:0;
+            right:0;
+            color: #fff;
+            font-size:.3rem;
+        }
+    }
+
+}
+
+.lunbo_1{
+    height:2.7rem;
+}
+.alin_header{
+    overflow: hidden;
+    ul{
+        li{
+            padding-top: .2rem;
+            width:25%;
+            float: left;
+            text-align: center;
+            font-size: .24rem;
+            color:#666;
+            font-weight: 300;
+            height:1.21rem;
+            img{
+                width:.73rem;
+                height:.62rem;
+                margin:0 auto .1rem;
+                
+            }
+        }
+    }
+}
+.title{
+    margin-top:.2rem;
+    height:.82rem;
+    width:100%;
+    text-indent: .2rem;
+    font-size: .28rem;
+    color:#222;
+    padding:.2rem;
+    line-height:.48rem; 
+}
+
+.swiperdiv_1{
+    height:1.23rem;
+    overflow: hidden;
+    margin-bottom: .2rem;
+}
+.swiper{
+    height:1.17rem;
+    overflow: hidden;
+    width:100%;
+
+        img{
+            width:100%;
+            height:100%;
+            border-radius: 5%; 
+        }  
+        p{
+            display: block;
+            position: absolute;
+            top:0;
+            text-align: center;
+            color:#fff;
+            z-index: 2;
+            width:100%;
+            height:100%;
+            background-color: rgba(0,0,0,.2);
+            border-radius: 5%;
+        } 
+    }

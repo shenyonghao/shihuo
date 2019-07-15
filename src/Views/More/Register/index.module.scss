@@ -1,0 +1,72 @@
+.header{
+   
+    height: 100%;
+    width: 100%;
+    background: white;
+    position: relative;
+    header{
+        background: #eee;
+        height: 0.8rem;
+        line-height: 0.8rem;
+        text-align: center;
+        font-size: 0.35rem;
+        a{
+            position: absolute;
+            left: 0rem;
+            width: 0.8rem;
+            height: 0.8rem;
+        }
+    }
+    .title{
+        display: block; 
+        width: 100%;
+        text-align: center;
+        padding: 0.35rem 0;
+        color: #DA5A52;
+    }
+    div{
+        padding-top: 0.25rem;
+        width: 6.21rem;
+        margin-left:0.7rem; 
+        border-bottom: 1px solid #000;
+        input{
+            border: 0;
+            width: 6.21rem;
+            height: 0.6rem;
+            
+        }
+    }
+    p{
+        padding: 0.15rem 0.7rem;
+        color: #999999;
+        line-height: 0.4rem;
+        a{
+            color: #0c80ff;
+        }
+    }
+    .Register{
+        margin:0.4rem 0;
+        display: block; 
+        width: 100%;
+        position: relative;
+        .aaa{
+        position: absolute;
+        left: 32%;
+        background: #b2b2b2;
+        width: 2.7rem;
+        height: 0.68rem;
+        line-height: 0.68rem;
+        border: 0;
+        border-radius: 0.34rem;
+        color: #fff;
+     }
+     .red{
+        background: #DA5A52;
+    }
+    }
+    p:nth-of-type(2){
+        color: #f00;
+        margin-top:1.2rem;
+    }
+   
+}

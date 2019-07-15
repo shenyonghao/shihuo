@@ -1,0 +1,26 @@
+.mytabbar{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    display: flex;
+    height: 0.9rem;
+    background:white;
+    width: 100%;
+    li{
+        list-style: none;
+        flex: 1;
+        text-align: center;
+        span{
+            display: block;
+            width: 0.56rem;
+            height: 0.56rem;
+            margin:auto;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+.myactive{
+    color: #ff4338;
+}

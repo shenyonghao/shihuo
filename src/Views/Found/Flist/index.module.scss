@@ -1,0 +1,72 @@
+.li_1{
+    border-bottom: 1px solid #e6e6e6;
+    padding: .26667rem .26667rem .26667rem 0;
+   
+    
+    overflow: hidden;
+    .dv_1{
+        float: left;
+        border-radius: .66667rem;
+        overflow: hidden;
+        margin-right: .26667rem;
+        margin-left: .1rem;
+        img{
+            width:.68rem;
+        }
+    }
+    .dv_2{
+        color: #444;
+        p:nth-of-type(1){
+            font-size: .37rem;
+            
+        }
+        p:nth-of-type(2){
+            font-size: .35rem;
+            color: #999;
+            height:.52rem;
+            line-height: .52rem;
+            margin-top:.1rem;
+        }
+    }
+
+    .dv_3{
+
+        .dv_4{
+            line-height:.4rem;
+            font-size: .3rem;
+            margin-left:.9rem;
+            margin-top:.1rem;
+        }
+        img{
+            width:6.22rem;
+            height:2.78rem;
+            margin-left:.9rem;
+            margin-top:.1rem;
+        }
+
+        .span_1{
+            background: url(//sh1.hoopchina.com.cn/fis_static/shihuomobile/static/find/index/like_537e53f.png) left center no-repeat;
+            padding-left: .58667rem;
+            background-size: .37rem auto;
+            height: .45333rem;
+            display: inline-block;
+            color: #a4a4a4;
+            margin-right: .26667rem;
+            line-height: .45333rem;
+            margin-top:.2rem;
+            margin-left:.9rem;
+        }
+        .span_2{
+            background: url(//sh1.hoopchina.com.cn/fis_static/shihuomobile/static/find/index/say_348570f.png) left center no-repeat;
+            padding-left: .58667rem;
+            background-size: .37rem auto;
+            line-height: .45333rem;
+            height: .45333rem;
+            color: #a4a4a4;
+        }
+
+    }
+
+
+
+}
